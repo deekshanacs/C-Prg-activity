@@ -1,0 +1,17 @@
+
+//Write a C program to compute the perimeter and area of a rectangle with a height of 7 inches and width of 5 inches.
+//Expected Output//
+//Perimeter of the rectangle = 24 inches//
+//Area of the rectangle = 35 square inches//
+
+//begin//
+
+#include<stdio.h>
+int main()
+{
+    int h=7,w=5;
+    int perimeter = 2*(h+w);
+    int area = h*w;
+    printf("Perimeter of the rectangle = %d inches",perimeter);
+    printf("\nArea of the rectangle = %d square inches",area);
+}
