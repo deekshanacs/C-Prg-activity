@@ -1,0 +1,22 @@
+//to catogerise using heights//
+
+#include<stdio.h>
+int main()
+{
+    int hg;
+    printf("Enter the height in cms:");
+    scanf("%d",&hg);
+    if(hg>150)
+    {
+        printf("The person is tall");
+    }
+    else if (hg<135)
+    {
+        printf("The person is dwarf");
+    }
+    else
+    {
+        printf("The person's height is medium");
+    }
+    return 0;
+}
