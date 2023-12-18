@@ -1,0 +1,40 @@
+#include<stdio.h>
+int main() 
+{
+    float  inc;
+    int mosalesinc;
+    printf("Enter the monthly sales income: ");
+    scanf("%d", &mosalesinc);
+     if (mosalesinc >= 50000) 
+     {
+        inc = 375 + 16/100.0 * mosalesinc;
+        printf("Monthly income = %.2f", inc);
+    } 
+    else if (mosalesinc >= 40000) 
+    {
+        inc = 370 + 14/100.0 * mosalesinc;
+        printf("Monthly income = %.2f", inc);
+    } 
+    else if (mosalesinc >= 30000) 
+    {
+        inc = 325 + 12/100.0 * mosalesinc;
+        printf("Monthly income = %.2f", inc);
+    }
+    else if (mosalesinc >= 20000)
+    {
+        inc = 300 + 9/100.0 * mosalesinc; 
+        printf("Monthly income = %.2f", inc);
+    } 
+    else if (mosalesinc >= 10000) 
+    {
+        inc = 250 + 5/100.0 * mosalesinc;
+        printf("Monthly income = %.2f", inc);
+    } 
+    else {
+        inc = 200 + 3/100.0 * mosalesinc;
+        printf("Monthly income = %.2f", inc);
+    }
+
+    return 0;
+}
+
