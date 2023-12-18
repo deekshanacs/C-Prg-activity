@@ -1,0 +1,17 @@
+
+/*Qn:swaping of two variable using temporary variable
+INPUT:two varables with unknown variable*/
+
+#include<stdio.h>
+int main()
+{
+    int a,b,temp;
+    printf("Enter value of 'a'and 'b' ");
+    scanf("%d%d",&a,&b);
+     temp=a;
+     a=b;
+     b=temp;
+    printf("After swaping we get %d and %d",a,b);
+    return 0;
+    
+}
