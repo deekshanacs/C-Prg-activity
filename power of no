@@ -1,0 +1,14 @@
+/* program to find the power of any number
+*/
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int base,expo,ans;
+    printf("enter the base value:\n Enter the exponent value:");
+    scanf("%d%d",&base,&expo);
+    ans=pow(base,expo);
+    printf("The answer is %d",ans);
+    return 0;
+}
+  
