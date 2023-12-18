@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    float un,per_unit,bill;
+    printf("Enter the amount of units consumed :");
+    scanf("%f",&un);
+    printf("enter the fixed rate per unit :");
+    scanf("%f",&per_unit);
+    bill=un*per_unit;
+    printf("the total electricity bill=%.2f",bill);
+    return 0;
+    
+}
