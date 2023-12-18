@@ -1,0 +1,18 @@
+// vowel or not//
+
+#include<stdio.h>
+int main()
+{
+    char alp;
+    printf("Enter an Alphabet:");
+    scanf("%c",&alp);
+    if(alp=='a'||alp=='e'||alp=='i'||alp=='o'||alp=='u'||alp=='A'||alp=='E'||alp=='I'||alp=='O'||alp=='U')
+    {
+        printf("It is a Vowel");
+    }
+    else
+    {
+        printf("It is not a Vowel");
+    }
+    return 0;
+}
