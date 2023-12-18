@@ -1,0 +1,14 @@
+
+Qn:finding cube of a number
+INPUT: get a number from user and find the cube*/
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Enter a number");
+    scanf("%d",&a);
+    int cube =a*a*a;
+    printf("Cube of the given number = %d",cube);
+    return 0;
+}
