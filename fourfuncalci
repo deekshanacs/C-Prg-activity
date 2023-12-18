@@ -1,0 +1,26 @@
+/* four function calculator
+Addition
+Subractio
+Multiplication
+Divison*/
+
+#include<stdio.h>
+int main()
+{
+    int n1,n2, add,sub,mul;
+    float divi;
+    printf("Enter Number 1:");
+    scanf("%d",&n1);
+    printf("\nEnter Number 2:");
+    scanf("%d",&n2);
+    add=n1+n2;
+    sub=n1-n2;
+    mul=n1*n2;
+    divi=n1/n2;
+    printf("\nOn Adding we get %d+%d=%d",n1,n2,add);
+    printf("\nOn Subracting we get %d-%d=%d",n1,n2,sub);
+    printf("\nOn Multiplying we get %d*%d=%d",n1,n2,mul);
+    printf("\nOn Dividing we get %d/%d=%.2f",n1,n2,divi);
+    return 0;
+}
+
