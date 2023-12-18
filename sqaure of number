@@ -1,0 +1,15 @@
+
+
+Qn:finding square of a number
+INPUT: get a number from user and find its sqaure*/
+
+#include<stdio.h>
+int main()
+{
+    int a ;
+    printf("Enter a number");
+    scanf("%d",&a);
+    int square = a*a;
+    printf("Square of the given number = %d",square);
+    return 0;
+}
