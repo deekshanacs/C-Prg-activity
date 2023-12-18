@@ -1,0 +1,19 @@
+// to check wether the integer is positive or negative//
+
+#include<stdio.h>
+int main() 
+{
+    int a;
+    printf("enter an integer:");
+    scanf("%d",&a);
+    
+    if(a>=0)
+    {
+        printf("The integer %d is positive",a);
+    }
+    else
+    {
+        printf("the ineteger %d is negative",a);
+    }
+    return 0;
+}
