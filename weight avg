@@ -1,0 +1,29 @@
+//Write a C program that accepts two item's weight and number of purchases (floating point values) and calculates their average value.
+//Test Data :
+//Weight - Item1: 15
+//No. of item1: 5
+//Weight - Item2: 25
+//No. of item2: 4
+//Expected Output:
+//Average Value = 19.444444
+
+//begin
+
+#include<stdio.h>
+int main()
+{
+    float w1,noi1,w2,noi2;
+    printf("Enter the weight of Item 1 =");
+    scanf("%f",&w1);
+    printf("Enter the number of purchase of item 1 =");
+    scanf("%f",&noi1);
+    printf("Enter the weight of Item 2 =");
+    scanf("%f",&w2);
+    printf("Enter the number of purchase of Item 2 =");
+    scanf("%f",&noi2);
+    float av1=w1*noi1;
+    float av2=w2*noi2;
+    float avgfinal=av1+av2/noi1+noi2;
+    printf("Average value = %.2f ",avgfinal);
+    return 0;
+}
