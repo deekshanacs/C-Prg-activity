@@ -1,0 +1,17 @@
+//printing my name in reverse//
+#include<stdio.h>
+int main()
+{
+    char Z='D';
+    char B='E';
+    char C='E';
+    char F='K';
+    char G='S';
+    char I='H';
+    char J='A';
+    char L='N';
+    char M='A';
+    printf("The reverse of my name is %c%c%c%c%c%c%c%c%c",M,L,J,I,G,F,C,B,Z);
+    return 0;
+    
+}
