@@ -12,7 +12,7 @@ int main()
 }
 else
 {
-    printf("The person is not eligible to cast vote");
+    printf("The person is not eligible to cast vote.");
 }
 return 0;
 }
